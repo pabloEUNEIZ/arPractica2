@@ -47,7 +47,7 @@ public class UIManagerJuego : MonoBehaviour
     {
         bCrear.SetActive(false);
         crearPulsado=true;
-        this.GetComponent<PlaneCounter>().InstantiateCubesOnDetectedPlanes((int)PlayerPrefs.GetFloat("vertical"),(int)PlayerPrefs.GetFloat("horizontal"));
+        this.GetComponent<PlaneCounterPablo>().InstantiateCubesOnDetectedPlanes((int)PlayerPrefs.GetFloat("vertical"),(int)PlayerPrefs.GetFloat("horizontal"));
         vertical.gameObject.SetActive(false);
         horizontal.gameObject.SetActive(false);
         titulo.text="Gemas encontradas=\n 0/"+(PlayerPrefs.GetFloat("vertical")+PlayerPrefs.GetFloat("horizontal")).ToString();

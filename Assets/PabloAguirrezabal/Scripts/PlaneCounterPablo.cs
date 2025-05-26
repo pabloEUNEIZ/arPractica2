@@ -3,7 +3,7 @@ using UnityEngine.XR.ARFoundation; // Necesario para ARPlaneManager, ARPlane, AR
 using UnityEngine.XR.ARSubsystems; // Necesario para PlaneAlignment, TrackingState
 using System.Collections.Generic;  // Necesario para List
 
-public class PlaneCounter : MonoBehaviour
+public class PlaneCounterPablo : MonoBehaviour
 {
     public int HorizontalPlanesCount { get; private set; }
     public int VerticalPlanesCount { get; private set; }
